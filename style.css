@@ -1,11 +1,15 @@
 body {
-    display: flexbox;
-    font-family: Roboto;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 ul {
@@ -13,14 +17,53 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 16px;
+    gap: 20px;
 }
 
-.header, 
-.section-1,
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header,
+.section-1, 
 .footer {
     background-color: #1F2937;
-    color: white;
     display: flex;
+    justify-content: space-around;
+    padding: 16px;
 }
 
+.title1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 28px;
+    border-radius: 8px;
+    border: none;
+}
+
+.footer {
+    color: #e5e7eb;
+}
