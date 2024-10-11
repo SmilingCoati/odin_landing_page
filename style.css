@@ -110,4 +110,23 @@ button {
 
 .section-3 {
     display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 100px;
+    margin-top: 80px;    
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    max-width: 830px;
+}
+
+.quote-source {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
 }
