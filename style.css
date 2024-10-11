@@ -30,8 +30,7 @@ ul {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .header,
@@ -62,8 +61,34 @@ button {
     padding: 6px 28px;
     border-radius: 8px;
     border: none;
+    width: 130px;
 }
 
 .footer {
     color: #e5e7eb;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section-1 {
+    gap: 24px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.img {
+    max-width: 50px;
 }
